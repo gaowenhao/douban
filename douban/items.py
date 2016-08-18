@@ -12,3 +12,6 @@ class MovieLink(scrapy.Item):
     name = scrapy.Field()
     link = scrapy.Field()
     rank = scrapy.Field()
+    star = scrapy.Field()
+    people = scrapy.Field()
+    description = scrapy.Field()
